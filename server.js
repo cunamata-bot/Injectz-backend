@@ -51,5 +51,5 @@ app.post('/login', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
+    console.log(`Servidor rodando em https://injectzlogin.onrender.com:${PORT}`);
 });
